@@ -1,0 +1,116 @@
+body{
+  background-color: #E9F6FF;
+  color: #333;
+}
+/*ヘッダーナビゲーション*/
+.img{
+  margin: 8px 20px;
+  animation: rollkAnime 5s linear infinite;
+}
+@keyframes rollkAnime{
+   50% {
+         transform: rotateY(180deg);
+       }
+  100% {
+         transform: rotateY(360deg);
+       }
+}
+.img2{
+  height: 30px;
+  margin-top: 10px;
+}
+.navbar{
+  border-bottom: solid 0.1px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}  
+.fixed-top{
+  background-color: white;
+  opacity: 0.9;
+}
+/*余白*/
+.header-top{
+  background-color: white;
+  padding: 28px;
+}
+.body-head{
+  text-align: center;
+}
+/*会社概要*/
+h1{
+  font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  font-family: sofia-pro, "Noto Sans", "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+.main{
+  margin-top: 50px;
+}
+
+.body-all{
+  margin: 0px auto;
+  padding: 50px;
+  background-color: white;
+}
+.body{
+  margin: 10px auto;
+}
+
+.main ul li{
+  list-style: none;
+}
+.main ul{
+  padding: 0px;
+}
+
+th,td{
+  font-size: 17px;
+  padding: 20px;
+  border-bottom: solid 1px;
+  font-family: sofia-pro, "Noto Sans", "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+h3,h4,h5{
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.foot{
+  background-color: #4A4A4A;
+  padding-left: 80px;
+  margin-bottom: 0px;
+}
+.foot p{
+  color: white;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.fa-instagram,.fa-line{
+  font-size: 30px;
+  color: white;
+  padding: 5px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px ){
+  h1{
+    font-size: 20px;
+    padding: 0px;
+  }
+  th,td{
+    font-size: 13px;
+  }
+  .main{
+    margin-top: 30px;
+  }
+}
+
+.end{
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+
+
